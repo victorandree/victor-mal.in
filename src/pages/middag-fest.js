@@ -11,7 +11,7 @@ const MiddagFestPage = props => (
       <dt>Plats:</dt>
       <dd>Rosendals trädgård i Stockholm</dd>
       <dt>Tid:</dt>
-      <dd>kl. 18 till 2</dd>
+      <dd>kl. 18.00–02.00</dd>
     </dl>
 
     <p>

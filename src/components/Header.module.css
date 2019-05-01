@@ -25,11 +25,17 @@
   margin: 0 0.5rem;
 }
 
-/* FIXME: Figure out the right class for this boy */
-.nav :global(.active) a {
+.nav :global(a.current) {
+  color: #7E2C2A;
   text-decoration: underline;
 }
 
 .homeLink {
   font-size: 2.5rem;
+}
+
+.rsvp a {
+  background: black;
+  color: white;
+  padding: 0 0.25rem;
 }
