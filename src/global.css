@@ -20,7 +20,7 @@ body {
 h1,
 h2,
 dt {
-  font-family: 'League Gothic', Impact, sans-serif;
+  font-family: 'league-gothic', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
