@@ -1,11 +1,13 @@
 import React from 'react';
 import PageLayout from '../layouts/PageLayout/sv';
+import imageUrl from '../images/toastmasters.jpg';
 
 const ToastmastersPage = props => (
   <PageLayout
     location={props.location}
     title="Toastmasters"
     pageName="toastmasters"
+    imageUrl={imageUrl}
   >
     <p>
       Till vår hjälp har vi våra fina vänner Andrea Tardell, Kajsa (Katarina)

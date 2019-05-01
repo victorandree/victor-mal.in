@@ -33,21 +33,21 @@ body > div {
 }
 
 body.ceremony {
-  background: #F9EDC6;
+  background: #f9edc6;
 }
 
 body.party {
-  background: #D7E4CD;
+  background: #d7e4cd;
 }
 
 body.toastmasters {
-  background: #F4E4E3;
+  background: #f4e4e3;
 }
 
 body.info {
-  background: #EEEDEB;
+  background: #eeedeb;
 }
 
 body.contact {
-  background: #D8D6E0;
+  background: #d8d6e0;
 }

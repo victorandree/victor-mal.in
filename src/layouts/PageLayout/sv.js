@@ -4,6 +4,8 @@ import Page from '../../components/Page';
 
 export default props => (
   <RootLayout location={props.location} pageName={props.pageName}>
-    <Page title={props.title}>{props.children}</Page>
+    <Page title={props.title} imageUrl={props.imageUrl}>
+      {props.children}
+    </Page>
   </RootLayout>
 );
