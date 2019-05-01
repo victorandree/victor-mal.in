@@ -1,0 +1,53 @@
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+html,
+body {
+  color: #333;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: white;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+h1,
+h2 {
+  font-family: 'League Gothic', Impact, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+a {
+  color: #333;
+}
+
+body > div {
+  height: 100%;
+}
+
+body.ceremony {
+  background: #F9EDC6;
+}
+
+body.party {
+  background: #D7E4CD;
+}
+
+body.toastmasters {
+  background: #F4E4E3;
+}
+
+body.info {
+  background: #EEEDEB;
+}
+
+body.contact {
+  background: #D8D6E0;
+}

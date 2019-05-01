@@ -2,7 +2,7 @@ import React from 'react';
 import PageLayout from '../../layouts/PageLayout/en';
 
 export default props => (
-  <PageLayout location={props.location} title="Contact">
+  <PageLayout location={props.location} title="Contact" pageName="contact">
     <dl>
       <dt>Malin:</dt>
       <dd>

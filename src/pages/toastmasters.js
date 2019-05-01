@@ -2,7 +2,11 @@ import React from 'react';
 import PageLayout from '../layouts/PageLayout/sv';
 
 const ToastmastersPage = props => (
-  <PageLayout location={props.location} title="Toastmasters">
+  <PageLayout
+    location={props.location}
+    title="Toastmasters"
+    pageName="toastmasters"
+  >
     <p>
       Till vår hjälp har vi våra fina vänner Andrea Tardell, Kajsa (Katarina)
       Warg och Therese Sivertsson som vi känt lika länge som vi känt varandra

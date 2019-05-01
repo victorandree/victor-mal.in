@@ -4,11 +4,11 @@ import styles from './Header.module.css';
 import { FormattedMessage } from 'react-intl';
 
 const Header = ({ menuItems }) => (
-  <header>
-    <Link to="/">
+  <header className={styles.header}>
+    <Link to="/" className={styles.homeLink}>
       <FormattedMessage id="title" />
     </Link>
-    <nav class={styles.siteNav}>
+    <nav className={styles.nav}>
       <ul>
         {menuItems.map(item => (
           <li key={item.to}>

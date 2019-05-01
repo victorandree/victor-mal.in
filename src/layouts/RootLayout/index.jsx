@@ -25,11 +25,19 @@ const messages = defineMessages({
   },
 });
 
-const IntlHelmet = injectIntl(({ intl }) => (
-  <Helmet title={intl.formatMessage(messages.title)} meta={[]} />
+const IntlHelmet = injectIntl(({ intl, pageName }) => (
+  <Helmet title={intl.formatMessage(messages.title)} meta={[]}>
+    <body className={pageName} />
+  </Helmet>
 ));
 
-const RootLayout = ({ children, location, i18nMessages, menuItems }) => (
+const RootLayout = ({
+  children,
+  location,
+  pageName,
+  i18nMessages,
+  menuItems,
+}) => (
   <StaticQuery
     query={query}
     render={data => {
@@ -49,8 +57,8 @@ const RootLayout = ({ children, location, i18nMessages, menuItems }) => (
 
       return (
         <IntlProvider locale={langKey} messages={i18nMessages}>
-          <div>
-            <IntlHelmet />
+          <div className="root">
+            <IntlHelmet pageName={pageName || ''} />
             <Header langs={langsMenu} menuItems={menuItems} />
             {children}
           </div>

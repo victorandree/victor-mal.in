@@ -2,7 +2,7 @@ import React from 'react';
 import PageLayout from '../layouts/PageLayout/sv';
 
 const OvrigtPage = props => (
-  <PageLayout location={props.location} title="Övrigt">
+  <PageLayout location={props.location} title="Övrigt" pageName="info">
     <h2>Klädkod: kavaj</h2>
     <p>
       Klädkoden är "kavaj". Med det menar vi kostym i valfri färg respektive

@@ -2,7 +2,11 @@ import React from 'react';
 import PageLayout from '../../layouts/PageLayout/en';
 
 export default props => (
-  <PageLayout location={props.location} title="The ceremony">
+  <PageLayout
+    location={props.location}
+    title="The ceremony"
+    pageName="ceremony"
+  >
     <dl>
       <dt>Location:</dt>
       <dd>Seglora Church at Skansen, Stockholm</dd>

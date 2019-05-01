@@ -1,7 +1,14 @@
 .page {
-  margin: 0 1em;
 }
 
-.page h1 {
-  font-weight: bold;
+.main {
+  box-sizing: border-box;
+  padding: 1.5rem 1.5rem;
+  width: 100%;
+}
+
+.main h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  margin: 0;
 }

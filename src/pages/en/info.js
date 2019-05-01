@@ -2,7 +2,7 @@ import React from 'react';
 import PageLayout from '../../layouts/PageLayout/en';
 
 export default props => (
-  <PageLayout location={props.location} title="Information">
+  <PageLayout location={props.location} title="Information" pageName="info">
     <h2>Dress code: business casual</h2>
     <p>
       The dress code is <em>business casual</em>, which you can interpret as a

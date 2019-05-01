@@ -2,7 +2,7 @@ import React from 'react';
 import PageLayout from '../layouts/PageLayout/sv';
 
 const VigselPage = props => (
-  <PageLayout location={props.location} title="Vigseln">
+  <PageLayout location={props.location} pageName="ceremony" title="Vigseln">
     <dl>
       <dt>Plats:</dt>
       <dd>Seglora kyrka på Skansen i Stockholm</dd>

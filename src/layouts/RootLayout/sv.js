@@ -9,9 +9,9 @@ addLocaleData(sv);
 
 const MENU_ITEMS = [
   { to: '/vigsel', title: 'Vigsel' },
-  { to: '/middag-fest', title: 'Middag & fest' },
+  { to: '/middag-fest', title: 'Middag & fest' },
   { to: '/toastmasters', title: 'Toastmasters' },
-  { to: '/info', title: 'Övrig info' },
+  { to: '/info', title: 'Övrig info' },
   { to: '/kontakt', title: 'Kontakt' },
   { to: '/en', title: 'English' },
 ];
