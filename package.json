@@ -1,0 +1,25 @@
+{
+  "name": "victor-mal.in",
+  "author": "Victor Andrée <hello@victorandree.se>",
+  "private": true,
+  "keywords": [
+    "gatsby",
+    "wedding",
+    "static"
+  ],
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "gatsby": "^2.3.34",
+    "gatsby-plugin-i18n": "^1.0.1",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-intl": "^2.8.0"
+  }
+}
