@@ -1,6 +1,11 @@
+.inner {
+  margin: 0 auto;
+}
+
 .main {
   box-sizing: border-box;
   padding: 1.5rem 1.5rem;
+  max-width: 40rem;
   width: 100%;
 }
 
@@ -10,7 +15,58 @@
   margin: 0;
 }
 
-.image {
+:global(body.root) .main h1 {
+  display: none;
+}
+
+:global(body.root) .main {
+  max-width: none;
+  width: 100%;
+}
+
+.imageContainer {
+  max-height: 33vh;
+  overflow-y: hidden;
+}
+
+.imageContainer img {
   display: block;
+  margin: 0 auto;
   max-width: 100%;
+  width: 100%;
+}
+
+@media (min-width: 64em) {
+  .imageContainer {
+    max-height: 50vh;
+  }
+}
+
+@media (min-width: 65em) {
+  .page {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .main {
+    width: 40em;
+  }
+
+  .page .imageContainer {
+    flex: 1 1 auto;
+    max-height: none;
+    order: 2;
+  }
+
+  .page .main {
+    flex: 0 0 auto;
+    order: 1;
+    padding: 3rem 3rem;
+  }
+}
+
+@media (min-width: 65em) {
+  :global(body.root) .main {
+    padding-top: 16vh;
+  }
 }

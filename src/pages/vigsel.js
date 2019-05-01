@@ -1,8 +1,14 @@
 import React from 'react';
 import PageLayout from '../layouts/PageLayout/sv';
+import imageUrl from '../images/seglora.jpg';
 
 const VigselPage = props => (
-  <PageLayout location={props.location} pageName="ceremony" title="Vigseln">
+  <PageLayout
+    location={props.location}
+    pageName="ceremony"
+    title="Vigseln"
+    imageUrl={imageUrl}
+  >
     <dl>
       <dt>Plats:</dt>
       <dd>Seglora kyrka på Skansen i Stockholm</dd>

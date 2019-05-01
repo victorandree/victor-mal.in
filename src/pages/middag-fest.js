@@ -1,11 +1,13 @@
 import React from 'react';
 import PageLayout from '../layouts/PageLayout/sv';
+import imageUrl from '../images/fest.jpg';
 
 const MiddagFestPage = props => (
   <PageLayout
     location={props.location}
     title="Middag &amp; fest"
     pageName="party"
+    imageUrl={imageUrl}
   >
     <dl>
       <dt>Plats:</dt>
@@ -18,14 +20,11 @@ const MiddagFestPage = props => (
       När vi anländer till Rosendal väntar mingel med dryck och tilltugg innan
       det serveras middag i ett av de mysiga växthusen. Maten som serveras
       speglar trädgårdens säsong och lagas av Rosendals kockar helt utifrån
-      ekologiska råvaror.{' '}
-      <em>Vi kommer uppdatera hemsidan med menyn längre fram!</em>
+      ekologiska råvaror.
     </p>
 
     <p>
-      Efter middagen festar vi vidare i anslutande växthus, förhoppningsvis med
-      en stjärnklar himmmel att äta pizza under när vi dansat bort middagen
-      framåt småtimmarna.
+      Efter middagen festar vi vidare i anslutande växthus, förhoppningsvis under en stjärnklar himmel.
     </p>
 
     <p>

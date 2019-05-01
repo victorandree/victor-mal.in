@@ -1,11 +1,13 @@
 import React from 'react';
 import PageLayout from '../../layouts/PageLayout/en';
+import imageUrl from '../../images/seglora.jpg';
 
 export default props => (
   <PageLayout
     location={props.location}
     title="The ceremony"
     pageName="ceremony"
+    imageUrl={imageUrl}
   >
     <dl>
       <dt>Location:</dt>

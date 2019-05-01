@@ -10,10 +10,10 @@ const ToastmastersPage = props => (
     imageUrl={imageUrl}
   >
     <p>
-      Till vår hjälp har vi våra fina vänner Andrea Tardell, Kajsa (Katarina)
-      Warg och Therese Sivertsson som vi känt lika länge som vi känt varandra
-      (snart 8 år!). De känner oss utan och innan och vi delar på många minnen
-      från Stockholm och hela världen.
+      Till vår hjälp har vi våra fina vänner Andrea, Kajsa (Katarina) och
+      Therese som vi känt lika länge som vi känt varandra (snart 8 år!). De
+      känner oss utan och innan och vi delar på många minnen från Stockholm och
+      hela världen.
     </p>
 
     <p>

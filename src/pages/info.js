@@ -1,12 +1,18 @@
 import React from 'react';
 import PageLayout from '../layouts/PageLayout/sv';
+import imageUrl from '../images/info.jpg';
 
 const OvrigtPage = props => (
-  <PageLayout location={props.location} title="Övrigt" pageName="info">
+  <PageLayout
+    location={props.location}
+    title="Övrigt"
+    pageName="info"
+    imageUrl={imageUrl}
+  >
     <h2>Klädkod: kavaj</h2>
     <p>
       Klädkoden är "kavaj". Med det menar vi kostym i valfri färg respektive
-      klänning, kjol eller byxdress i valfri längd.
+      klänning, kjol eller byxdress i valfri längd. Udda kavaj går också fint!
     </p>
 
     <h2>Barn är välkomna till vigseln</h2>
