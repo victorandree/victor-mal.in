@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
 import { IntlProvider, defineMessages, injectIntl } from 'react-intl';
 import Header from '../../components/Header';
+import ogImageUrl from '../../images/std2.jpg';
 
 const query = graphql`
   query LayoutQuery {
@@ -25,11 +26,23 @@ const messages = defineMessages({
   },
 });
 
-const IntlHelmet = injectIntl(({ intl, pageName }) => (
-  <Helmet title={intl.formatMessage(messages.title)} meta={[]}>
-    <body className={pageName} />
-  </Helmet>
-));
+const IntlHelmet = injectIntl(({ intl, pageName, lang }) => {
+  const title = intl.formatMessage(messages.title);
+
+  return (
+    <Helmet
+      title={title}
+      htmlAttributes={{ lang, prefix: 'og: http://ogp.me/ns#' }}
+    >
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content="31 augusti 2019" />
+      <meta property="og:image" content={ogImageUrl} />
+      <meta property="og:url" content="https://victor-mal.in/" />
+
+      <body className={pageName} />
+    </Helmet>
+  );
+});
 
 const RootLayout = ({
   children,
@@ -58,7 +71,7 @@ const RootLayout = ({
       return (
         <IntlProvider locale={langKey} messages={i18nMessages}>
           <div className="root">
-            <IntlHelmet pageName={pageName || ''} />
+            <IntlHelmet pageName={pageName || ''} lang={langKey} />
             <Header langs={langsMenu} menuItems={menuItems} />
             {children}
           </div>
