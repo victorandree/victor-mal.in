@@ -13,7 +13,7 @@ const ToastmastersPage = props => (
       Till vår hjälp har vi våra fina vänner Andrea, Kajsa (Katarina) och
       Therese som vi känt lika länge som vi känt varandra (snart 8 år!). De
       känner oss utan och innan och vi delar på många minnen från Stockholm och
-      hela världen.
+      runtom i världen.
     </p>
 
     <p>

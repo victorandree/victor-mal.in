@@ -18,10 +18,25 @@ body {
 }
 
 h1,
-h2 {
+h2,
+dt {
   font-family: 'League Gothic', Impact, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
+}
+
+dt {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+dd + dt {
+  padding-top: 1.5rem;
 }
 
 a {

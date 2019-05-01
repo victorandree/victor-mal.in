@@ -11,7 +11,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Libre Baskerville', 'Just Another Hand'],
+          families: ['Libre Baskerville:400,400i', 'Just Another Hand'],
         },
         typekit: { id: 'fns0atl' },
       },

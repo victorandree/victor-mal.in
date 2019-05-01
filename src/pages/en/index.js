@@ -14,7 +14,11 @@ const IndexPage = props => (
   >
     <Polaroids>
       <Polaroid src={std1} caption="We're getting married!" />
-      <Polaroid src={std2} caption="August 31st, 2019 at 16:30" />
+      <Polaroid
+        src={std2}
+        caption="August 31st, 2019 at 16:30"
+        marginTop={'-2em'}
+      />
       <Polaroid src={std3} caption="Seglora Church, Skansen" />
       <Polaroid src={std4} caption="Party at Rosendal's Garden" />
     </Polaroids>

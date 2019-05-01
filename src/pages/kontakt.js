@@ -1,8 +1,14 @@
 import React from 'react';
 import PageLayout from '../layouts/PageLayout/sv';
+import imageUrl from '../images/contact.jpg';
 
 export default props => (
-  <PageLayout location={props.location} title="Kontakt" pageName="contact">
+  <PageLayout
+    location={props.location}
+    title="Kontakt"
+    pageName="contact"
+    imageUrl={imageUrl}
+  >
     <dl>
       <dt>Malin:</dt>
       <dd>

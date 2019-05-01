@@ -29,7 +29,7 @@ const VigselPage = props => (
 
     <p>
       Under helgen krävs tillstånd för att köra bil till Djurgården. Det är
-      smidigast att åka kommunalt eller ta taxi.{' '}
+      därför smidigast att åka kommunalt eller ta taxi.{' '}
       <a
         href="http://www.skansen.se/sv/ta-dig-till-skansen"
         target="_blank"

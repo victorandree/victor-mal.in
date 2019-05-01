@@ -12,7 +12,7 @@ export default props => (
     <dl>
       <dt>Location:</dt>
       <dd>Rosendal's Garden, Stockholm</dd>
-      <dt>Tid:</dt>
+      <dt>Time:</dt>
       <dd>18:00 to 02:00 (approximately)</dd>
     </dl>
 
@@ -20,7 +20,7 @@ export default props => (
       When arriving at Rosendal, we'll have som snacks and drinks before dinner
       is served in one of their cozy greenhouses. The food is prepared by the
       chefs of Rosendal using entirely organic ingredients reflecting the
-      season. <em>Stay tuned for the full menu!</em>
+      season.
     </p>
 
     <p>
