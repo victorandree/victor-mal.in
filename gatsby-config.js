@@ -9,6 +9,12 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-remove-serviceworker',
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-139402984-1',
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Victor & Malin 2019`,
@@ -17,7 +23,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#ffffff`,
         display: `standalone`,
-        icon: 'src/images/icon.png'
+        icon: 'src/images/icon.png',
       },
     },
     {
