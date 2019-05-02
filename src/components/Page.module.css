@@ -26,7 +26,6 @@
 }
 
 .imageContainer {
-  max-height: 33vh;
   overflow-y: hidden;
 }
 
@@ -39,7 +38,7 @@
 
 @media (min-width: 64em) {
   .imageContainer {
-    max-height: 50vh;
+    max-height: 67vh;
   }
 }
 
