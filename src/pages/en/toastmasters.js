@@ -18,9 +18,7 @@ const ToastmastersPage = props => (
 
     <p>
       If you want to hold a speech or do something special during dinner, please
-      get in touch with them. They would like to know what you're planning, as
-      well as if you need any special props (for example, a PA system or
-      projector).
+      get in touch with them!
     </p>
 
     <p>

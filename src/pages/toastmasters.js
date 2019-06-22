@@ -17,9 +17,7 @@ const ToastmastersPage = props => (
     </p>
 
     <p>
-      Om ni vill hålla tal eller göra något annat festligt, kontakta dem. De
-      vill gärna veta vad ni planerat och om det behövs någon rekvisita (till
-      exempel ljudanläggning eller projektor).
+      Om ni vill hålla tal eller göra något annat festligt, kontakta dem!
     </p>
 
     <p>
