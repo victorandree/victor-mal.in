@@ -43,21 +43,16 @@ export default props => (
 
     <ul>
       <li>Nice flower pots and vases (loved by Malin)</li>
-      <li>
-        Delightful soaps (Victor loves{' '}
-        <a href="https://www.labruket.se/" target="_blank">
-          L:a bruket
-        </a>
-        )
-      </li>
+      <li>Delightful soaps (Victor loves)</li>
       <li>Wine, olive oils or other tasty things (loved by both)</li>
       <li>
-        Fun, nice and wonderful things to do by ourselves or in your company
+        Fun, nice and wonderful things to do (by ourselves or in your company)
       </li>
+      <li>A cast iron pan (that can grow old together with us)</li>
       <li>
         Cutlery from{' '}
         <a
-          href="https://www.iittala.com/collections/iittala/artik/c/artik/intro"
+          href="https://www.google.com/search?q=iitala+artik&amp;tbm=isch"
           target="_blank"
         >
           Iittala's “Artik” collection
@@ -66,22 +61,11 @@ export default props => (
       <li>
         Tableware from{' '}
         <a
-          href="https://www.georgjensen.com/en-gb/tableware/cobra"
+          href="https://www.google.com/search?q=georg+jensen+cobra+porslin&amp;tbm=isch"
           target="_blank"
         >
           Georg Jensen's “Cobra” collection
         </a>
-      </li>
-      <li>
-        Glasses from{' '}
-        <a
-          href="https://www.iittala.com/collections/iittala/essence/c/essence/intro"
-          target="_blank"
-        >
-          Iittalas “Essence”-kollektion
-        </a>{' '}
-        (we hope to expand our existing collection of wine glasses with other
-        kinds!)
       </li>
       <li>
         Gift card for{' '}
@@ -89,7 +73,6 @@ export default props => (
           Svenssons i Lammhult
         </a>
       </li>
-      <li>A cast iorn pan that can grow old together with us</li>
       <li>Honeymoon contributions</li>
     </ul>
   </PageLayout>
