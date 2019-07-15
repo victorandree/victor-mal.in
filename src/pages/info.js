@@ -40,7 +40,7 @@ const OvrigtPage = props => (
     </p>
 
     <ul>
-      <li>Fina krukor (Malin älskar)</li>
+      <li>Fina krukor och vaser (Malin älskar)</li>
       <li>
         Härliga tvålar (Victor älskar)
       </li>
