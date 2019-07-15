@@ -14,6 +14,10 @@ export default props => (
       The dress code is <em>business casual</em>, which you can interpret as a
       suit or jacket with slacks, and dress, skirt or jumpsuit of any length.
     </p>
+    <p>
+      <strong>Note!</strong> When deciding on shoes, please remember that the
+      party is in a garden and green house with gravel and dirt floors.
+    </p>
 
     <h2>Children are welcome to the ceremony</h2>
     <p>

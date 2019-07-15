@@ -14,6 +14,10 @@ const OvrigtPage = props => (
       Klädkoden är "kavaj". Med det menar vi kostym i valfri färg respektive
       klänning, kjol eller byxdress i valfri längd. Udda kavaj går också fint!
     </p>
+    <p>
+      <strong>Obs!</strong> När ni väljer skor, tänk på att festen är i
+      trädgårdsmiljö och att festlokalen har grusgolv.
+    </p>
 
     <h2>Barn är välkomna till vigseln</h2>
     <p>
