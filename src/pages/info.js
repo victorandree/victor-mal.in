@@ -30,6 +30,65 @@ const OvrigtPage = props => (
       Kontakta oss så hjälper vi gärna till med resvägar, boende, sevärdheter
       och annat!
     </p>
+
+    <h2 id="wishlist">Önskelista</h2>
+    <p>
+      Vi vill klargöra att den finaste presenten är er närvaro, det vill säga
+      att ni kommer och firar med oss! Om du vill ha med en present så
+      uppskattar vi varmt fina saker till vårt hem eller goda saker att äta och
+      dricka. För tips på vad vi gillar (utan inbördes ordning):
+    </p>
+
+    <ul>
+      <li>Fina krukor (Malin älskar)</li>
+      <li>
+        Härliga tvålar (Victor älskar{' '}
+        <a href="https://www.labruket.se/" target="_blank">
+          L:a bruket
+        </a>
+        )
+      </li>
+      <li>Vin, olivolja eller annat gott (Båda älskar)</li>
+      <li>
+        Roliga, trevliga eller härliga saker att göra bara för oss eller med er
+      </li>
+      <li>
+        Bestick från{' '}
+        <a
+          href="https://www.iittala.com/se/sv/collections/iittala/artik/c/artik/intro"
+          target="_blank"
+        >
+          Iittalas ”Artik”-kollektion
+        </a>
+      </li>
+      <li>
+        Porslin från{' '}
+        <a
+          href="https://www.georgjensen.com/sv-se/bordsdukning/cobra"
+          target="_blank"
+        >
+          Georg Jensens ”Cobra”-kollektion
+        </a>
+      </li>
+      <li>
+        Glas från{' '}
+        <a
+          href="https://www.iittala.com/se/sv/collections/iittala/essence/c/essence/intro"
+          target="_blank"
+        >
+          Iittalas ”Essence”-kollektion
+        </a>{' '}
+        (vi vill gärna utöka vår samling vinglas med andra typer)
+      </li>
+      <li>
+        Presentkort från{' '}
+        <a href="https://www.svenssons.se/" target="_blank">
+          Svenssons i Lammhult
+        </a>
+      </li>
+      <li>Gjutjärnspanna som kan få åldras tillsammans med oss</li>
+      <li>Bidrag till bröllopsresa</li>
+    </ul>
   </PageLayout>
 );
 
